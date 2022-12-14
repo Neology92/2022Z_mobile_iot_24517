@@ -7,12 +7,13 @@
 
         <Label Text="Notes"
                HorizontalOptions="Center"
-               FontSize="{notes:GlobalFontSize}"
+               TextColor="{x:Static Member=notes:SharedResources.FontColor}"
                FontAttributes="Bold" />
 
         <Editor x:Name="editor"
                 Placeholder="Enter your note"
-                HeightRequest="100" />
+                HeightRequest="100" 
+                TextColor="{x:Static Member=notes:SharedResources.FontColor}"/>
 
         <Grid   HeightRequest="40"
                 ColumnDefinitions="Auto, 30, Auto">
@@ -20,11 +21,15 @@
             <Button Grid.Column="0"
                     Text="Save"
                     WidthRequest="100"
+                    TextColor="{x:Static Member=notes:SharedResources.FontColor}"
+                    BackgroundColor="{x:Static Member=notes:SharedResources.BackgroundColor}"
                     Clicked="OnSaveButtonClicked" />
 
             <Button Grid.Column="2"
                     Text="Delete"
                     WidthRequest="100"
+                    TextColor="{x:Static Member=notes:SharedResources.FontColor}"
+                    BackgroundColor="{x:Static Member=notes:SharedResources.BackgroundColor}"
                     Clicked="OnDeleteButtonClicked" />
         </Grid>
     </VerticalStackLayout>
