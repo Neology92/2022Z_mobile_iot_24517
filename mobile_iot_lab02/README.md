@@ -2,7 +2,7 @@ W dniu dzisiejszym Twoim zadaniem będzie utworzenie pierwszej aplikacji multipl
 
 https://learn.microsoft.com/en-gb/training/modules/build-mobile-and-desktop-apps/
 
-![](https://raw.githubusercontent.com/Neology92/2022Z_mobile_iot_24517/master/mobile_iot_lab02/SS1.png | width=100px) 
+![img|100](https://raw.githubusercontent.com/Neology92/2022Z_mobile_iot_24517/master/mobile_iot_lab02/SS1.png) 
 
 ![](https://github.com/Neology92/2022Z_mobile_iot_24517/blob/master/mobile_iot_lab02/SS2.png | width=100px)
 
